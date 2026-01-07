@@ -1,61 +1,45 @@
-// Herói 1 - Kirito
-let nomeHeroi1 = "Kirito";
-let xpHeroi1 = 6000;
-let nivelHeroi1 = "";
+// Kirito
+let nome1 = "Kirito";
+let xp1 = 10000; 
+let nivel1 = "";
 
-if (xpHeroi1 >= 8001 && xpHeroi1 <= 9000) {
-    nivelHeroi1 = "Ascendente";
-} else if (xpHeroi1 >= 5001 && xpHeroi1 <= 7000) {
-    nivelHeroi1 = "Ouro";
-} else if (xpHeroi1 >= 2001 && xpHeroi1 <= 5000) {
-    nivelHeroi1 = "Prata";
-} else {
-    nivelHeroi1 = "Outro nível";
-}
+if (xp1 >= 1 && xp1 <= 2000) nivel1 = "Ferro";
+else if (xp1 <= 5000) nivel1 = "Prata";
+else if (xp1 <= 7000) nivel1 = "Ouro";
+else if (xp1 <= 8000) nivel1 = "Platina";
+else if (xp1 <= 9000) nivel1 = "Ascendente";
+else if (xp1 <= 10000) nivel1 = "Imortal";
+else if (xp1 >= 10001) nivel1 = "Radiante";
 
-console.log("Herói: " + nomeHeroi1);
-console.log("XP: " + xpHeroi1);
-console.log("Nível: " + nivelHeroi1);
+// Dr. Stone
+let nome2 = "Dr. Stone";
+let xp2 = 3000; 
+let nivel2 = "";
+
+if (xp2 >= 1 && xp2 <= 2000) nivel2 = "Ferro";
+else if (xp2 <= 5000) nivel2 = "Prata";
+else if (xp2 <= 7000) nivel2 = "Ouro";
+else if (xp2 <= 8000) nivel2 = "Platina";
+else if (xp2 <= 9000) nivel2 = "Ascendente";
+else if (xp2 <= 10000) nivel2 = "Imortal";
+else if (xp2 >= 10001) nivel2 = "Radiante";
+
+// Ainz
+let nome3 = "Ainz";
+let xp3 = 99999; 
+let nivel3 = "";
+
+if (xp3 >= 1 && xp3 <= 2000) nivel3 = "Ferro";
+else if (xp3 <= 5000) nivel3 = "Prata";
+else if (xp3 <= 7000) nivel3 = "Ouro";
+else if (xp3 <= 8000) nivel3 = "Platina";
+else if (xp3 <= 9000) nivel3 = "Ascendente";
+else if (xp3 <= 10000) nivel3 = "Imortal";
+else if (xp3 >= 10001) nivel3 = "Radiante";
+
+console.log("O Herói de nome " + nome1 + " está no nível de " + nivel1);
 console.log("");
-
-
-// Herói 2 - Ainz
-let nomeHeroi2 = "Ainz";
-let xpHeroi2 = 8500;
-let nivelHeroi2 = "";
-
-if (xpHeroi2 >= 8001 && xpHeroi2 <= 9000) {
-    nivelHeroi2 = "Ascendente";
-} else if (xpHeroi2 >= 5001 && xpHeroi2 <= 7000) {
-    nivelHeroi2 = "Ouro";
-} else if (xpHeroi2 >= 2001 && xpHeroi2 <= 5000) {
-    nivelHeroi2 = "Prata";
-} else {
-    nivelHeroi2 = "Outro nível";
-}
-
-console.log("Herói: " + nomeHeroi2);
-console.log("XP: " + xpHeroi2);
-console.log("Nível: " + nivelHeroi2);
+console.log("O Herói de nome " + nome2 + " está no nível de " + nivel2);
 console.log("");
-
-
-// Herói 3 - Dr. Stone
-let nomeHeroi3 = "Dr. Stone";
-let xpHeroi3 = 3500;
-let nivelHeroi3 = "";
-
-if (xpHeroi3 >= 8001 && xpHeroi3 <= 9000) {
-    nivelHeroi3 = "Ascendente";
-} else if (xpHeroi3 >= 5001 && xpHeroi3 <= 7000) {
-    nivelHeroi3 = "Ouro";
-} else if (xpHeroi3 >= 2001 && xpHeroi3 <= 5000) {
-    nivelHeroi3 = "Prata";
-} else {
-    nivelHeroi3 = "Outro nível";
-}
-
-console.log("Herói: " + nomeHeroi3);
-console.log("XP: " + xpHeroi3);
-console.log("Nível: " + nivelHeroi3);
+console.log("O Herói de nome " + nome3 + " está no nível de " + nivel3);
 console.log("");
